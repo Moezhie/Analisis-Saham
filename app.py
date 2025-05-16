@@ -8,3 +8,7 @@ def home():
 
 if __name__ == "__main__":  
     app.run(host="0.0.0.0", port=5000)
+
+@app.route("/data")
+def data():
+    return {"message": "API berjalan dengan sukses!", "status": 200}
