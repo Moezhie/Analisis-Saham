@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: analisis-saham
+    env: python
+    plan: free
+    installCommand: "pip install -r requirements.txt"
+    buildCommand: ""
+    startCommand: "gunicorn app:app"
