@@ -1,0 +1,13 @@
+DEBUG Loaded flyctl config from/data/data/com.termux/files/home/.fly/config.yml
+DEBUG determined hostname: "localhost"
+DEBUG determined working directory: "/data/data/com.termux/files/home"
+DEBUG determined config directory: "/data/data/com.termux/files/home/.fly"
+DEBUG ensured config directory exists.
+DEBUG ensured config directory perms.
+DEBUG cache loaded.
+DEBUG config initialized.
+DEBUG skipped querying for new release
+DEBUG checking for updates...
+DEBUG client initialized.
+DEBUG Starting task manager
+DEBUG Task manager done

@@ -1,0 +1,19 @@
+DEBUG Loaded flyctl config from/data/data/com.termux/files/home/.fly/config.yml
+DEBUG determined hostname: "localhost"
+DEBUG determined working directory: "/data/data/com.termux/files/home"
+DEBUG determined config directory: "/data/data/com.termux/files/home/.fly"
+DEBUG ensured config directory exists.
+DEBUG ensured config directory perms.
+DEBUG cache loaded.
+DEBUG config initialized.
+DEBUG started querying for new release
+WARN failed querying for new release: Get "https://api.fly.io/app/flyctl_releases/linux/arm64/latest": dial tcp: lookup api.fly.io on [::1]:53: read udp [::1]:44855->[::1]:53: read: connection refused
+DEBUG checking for updates...
+DEBUG client initialized.
+DEBUG no app config found at /data/data/com.termux/files/home/fly.toml; skipped.
+DEBUG no app config found at /data/data/com.termux/files/home/fly.json; skipped.
+DEBUG no app config found at /data/data/com.termux/files/home/fly.yaml; skipped.
+DEBUG Starting task manager
+DEBUG Task manager done
+DEBUG started querying for statuspage incidents
+DEBUG failed querying for Statuspage incidents: Get "https://incidents.flyio.net/v1/incidents": dial tcp: lookup incidents.flyio.net on [::1]:53: read udp [::1]:35282->[::1]:53: read: connection refused
